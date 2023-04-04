@@ -8,23 +8,14 @@ class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		Scanner read =new Scanner(System.in);
-		//number of test cases.
-		int t=read.nextInt();
-		for(int i=0;i<=t;i++){
-		    
-		    int a=read.nextInt();
-		    int b=read.nextInt();
-		    
-		    int c=a+b;
-		    
-		    if(c>6){
-		        System.out.println("YES");
-		    }else{
-		        System.out.println("NO");
-		    }
-		    
-		}
+		int a=10;
+//		a++;
+//int b=a;
+System.out.println(!(3>2) && !(2>0));
+//System.out.println(b);
+		
 		
 	}
 }
+
+	

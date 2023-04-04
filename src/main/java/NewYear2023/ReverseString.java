@@ -4,16 +4,17 @@ import java.util.Scanner;
 
 public class ReverseString {
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
+	//Scanner sc=new Scanner(System.in);
 		
-		String a=sc.nextLine();
+	//	String a=sc.nextLine();
 		
-	    char[] arr=a.toCharArray();
-
-	    for (int i=0;i< a.length()/2; i++) {
+	  //char[] arr=a.toCharArray();
+int arr[]= {1,2,3,4,5};
+	    for (int i=0;i< arr.length/2; i++) {
 			int l=arr.length-1-i;	    		
 	    
-	    	char temp=arr[i];
+	    //	char 
+	    	int temp=arr[i];
 	    	arr[i]=arr[l];
 	    	arr[l]=temp;
 	    	
