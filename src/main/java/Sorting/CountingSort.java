@@ -1,6 +1,5 @@
 
 package Sorting;
-import java.util.*;
 
 public class CountingSort {
 	public static void printArray(int[]arr) {

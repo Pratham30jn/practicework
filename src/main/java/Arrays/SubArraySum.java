@@ -1,5 +1,4 @@
 package Arrays;
-import java.util.*;
 
 public class SubArraySum {
 	// Brut force method
@@ -25,6 +24,8 @@ public class SubArraySum {
 	public static void main(String[] args) {
 		int numbers[]= {1,-2,6,-1,3};
 		maxSubArraySum(numbers);
+		SubArray arr=new SubArray();
+		arr.printSubarray(numbers);
 		
 	}
 

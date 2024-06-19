@@ -13,7 +13,7 @@ public class ContinueStatement {
 			if(n%10==0) {
 				continue;
 			}
-			System.out.println("your number is"+n);
+			System.out.println("your number is-"+n);
 		}while(true);
 		
 	}

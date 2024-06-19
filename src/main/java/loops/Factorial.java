@@ -1,5 +1,5 @@
 package loops;
-import java.util.*;
+import java.util.Scanner;
 public class Factorial {
 	// To print factorial of a number.
 	public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package loops;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class CheckForPrime {
 	// To check weather a number is prime or not.

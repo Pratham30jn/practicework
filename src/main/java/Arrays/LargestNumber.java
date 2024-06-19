@@ -1,5 +1,4 @@
 package Arrays;
-import java.util.*;
 
 public class LargestNumber {
 	public static int getLargestNumber(int number[]) {
@@ -10,6 +9,7 @@ public class LargestNumber {
 			
 			  if(number[i]>l) { 
 				  l=number[i];
+				  
 				  }
 			 	if(number[i]<s) {
 				s=number[i];
